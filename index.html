@@ -136,24 +136,24 @@
 
 			case 0:
 				coffee = {
-					name: "Drip",
-					pic: "images/drip.jpg",
-					alt: "Drip Coffee",
-					color: "brown",
+					name: "Caramel Latte",
+					pic: "images/caramel-latte.jpg",
+					alt: "Caramel Latte",
+					color: "red",
 					day: "Sunday",
-					desc: `I just need the drip!`,
+					desc: `Love caramel? Why not get the caramel latte!`,
 				};
 			break;
 
 
 			case 1:
 				coffee = {
-					name: "Drip",
-					pic: "images/drip.jpg",
-					alt: "Drip Coffee",
-					color: "brown",
+					name: "Mocha",
+					pic: "images/mocha.jpg",
+					alt: "Mocha Coffee",
+					color: "gold",
 					day: "Monday",
-					desc: `I just need the drip!`,
+					desc: `I love white chocolate mochas!`,
 				};
 			break;
 
@@ -170,12 +170,12 @@
 
 			case 3:
 				coffee = {
-					name: "Drip",
-					pic: "images/drip.jpg",
-					alt: "Drip Coffee",
-					color: "brown",
+					name: "Frappaccino",
+					pic: "images/frappaccino.jpg",
+					alt: "Frappaccino Coffee",
+					color: "lightgreen",
 					day: "Wednesday",
-					desc: `I just need the drip!`,
+					desc: `Get a nice blended drink for the hot summer days!`,
 				};
 			break;
 
@@ -192,31 +192,30 @@
 
 			case 5:
 				coffee = {
-					name: "Drip",
-					pic: "images/drip.jpg",
-					alt: "Drip Coffee",
-					color: "brown",
+					name: "Cold Brew",
+					pic: "images/cold-brew.jpg",
+					alt: "Cold Brew Coffee",
+					color: "skyblue",
 					day: "Friday",
-					desc: `I just need the drip!`,
+					desc: `A perfect way to start the day with some cold brew!`,
 				};
 			break;
 
 
 			case 6:
 				coffee = {
-					name: "Drip",
-					pic: "images/drip.jpg",
-					alt: "Drip Coffee",
-					color: "brown",
+					name: "Bubble Tea",
+					pic: "images/bubble-tea.jpg",
+					alt: "Bubble Tea drink",
+					color: "purple",
 					day: "Saturday",
-					desc: `I just need the drip!`,
+					desc: `Get some bubble tea with your friends!`,
 				};
 			break;
 		}
 		document.getElementById('mydiv').innerHTML = coffeeTemplate(coffee);
 		document.querySelector('.feature').style.color = coffee.color;
 		document.querySelector('html').style.backgroundColor = coffee.color;
-
 
 
 		console.log(coffee);
